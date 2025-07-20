@@ -8,19 +8,11 @@ logger = setup_logger('db_helper')
 def get_db_cursor(commit=False):
 
     connection = mysql.connector.connect(
-        host="tramway.proxy.rlwy.net",
-        port=12708,
+        host="localhost",
         user="root",
-        password="BTyECrXSAcAuHjVdVqYXmzDQRMsdhTQS",
-        database="railway"
+        password="sarthak",
+        database="expense_manager"
     )
-
-    # connection = mysql.connector.connect(
-    #     host="localhost",
-    #     user="root",
-    #     password="sarthak",
-    #     database="expense_manager"
-    # )
 
     cursor = connection.cursor(dictionary=True)
 
