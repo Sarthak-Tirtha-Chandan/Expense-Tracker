@@ -6,7 +6,8 @@ from add_update_show_ui import show,add,update
 from analytics_ui import analytics
 from analytics_by_months import analytics_months_tab
 
-API_URL = "http://localhost:8000"
+# API_URL = "http://localhost:8000"
+API_URL = "https://expense-trackker.streamlit.app/"
 
 st.title("Expense Management System")
 

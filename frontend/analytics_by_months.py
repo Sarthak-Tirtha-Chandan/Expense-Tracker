@@ -4,7 +4,8 @@ import requests
 import pandas as pd
 
 
-API_URL = "http://localhost:8000"
+# API_URL = "http://localhost:8000"
+API_URL = "https://expense-trackker.streamlit.app/"
 
 
 def analytics_months_tab():
