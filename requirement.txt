@@ -6,3 +6,4 @@ mysql-connector-python==9.3.0
 pandas==2.2.3
 requests==2.32.3
 pytest==8.4.1
+matplotlib==3.10.3
